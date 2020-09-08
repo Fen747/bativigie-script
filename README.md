@@ -20,10 +20,10 @@ whose contract has already ended.
     node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie"
 
     // Copy documents to update into `test` database
-    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie -tc"
+    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie" -tc
 
     // Copy documents to update into `test` database and update them
-    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie -tcu"
+    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie" -tcu
 
     // Update matching workers on production database
-    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie -u"
+    node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie" -u
