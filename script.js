@@ -192,7 +192,9 @@ const main = () => {
 
 					console.log('Adding log file...')
 					fs.writeFileSync(
-						`${__dirname}/.logs/.modified_ids_${now}.json`,
+						`${__dirname}/.logs/.modified_ids_${now}${
+							options.test ? '.test' : ''
+						}.json`,
 						JSON.stringify(idsToModify),
 					)
 				}
