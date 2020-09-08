@@ -2,10 +2,8 @@
 	"name": "datavigie-workers-update-script",
 	"version": "1.0.0",
 	"description": "This script allows you to connect to the 'bativigie' mongoDB collection in order to list and update the 'status' of all workers of type 'interim' whose contract has already ended.",
-	"main": "sscript.js",
-	"scripts": {
-		"start": "node script.js"
-	},
+	"main": "script.js",
+	"scripts": {},
 	"author": "David Panart <david.panart@iwillcodeit.io>",
 	"license": "MIT",
 	"dependencies": {
