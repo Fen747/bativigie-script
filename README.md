@@ -34,5 +34,6 @@ whose contract has already ended.
 
 ## Logs
 
-Logs can be found at `./logs/.modified_ids_xxxxxx.json` where `xxxxxx` is the timestamp used to detect documents to update
+Logs can be found at `./logs/.modified_ids_xxxxxx.json` where `xxxxxx` is the timestamp used to detect documents to update.
+
 Logs from the `test` database are suffixed with `.test.json`
