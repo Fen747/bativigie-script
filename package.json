@@ -1,16 +1,16 @@
 {
-  "name": "datavigie",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "command-line-args": "^5.1.1",
-    "command-line-usage": "^6.1.0",
-    "mongodb": "^3.6.1"
-  }
+	"name": "datavigie-workers-update-script",
+	"version": "1.0.0",
+	"description": "This script allows you to connect to the 'bativigie' mongoDB collection in order to list and update the 'status' of all workers of type 'interim' whose contract has already ended.",
+	"main": "sscript.js",
+	"scripts": {
+		"start": "node script.js"
+	},
+	"author": "David Panart <david.panart@iwillcodeit.io>",
+	"license": "MIT",
+	"dependencies": {
+		"command-line-args": "^5.1.1",
+		"command-line-usage": "^6.1.0",
+		"mongodb": "^3.6.1"
+	}
 }
