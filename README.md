@@ -6,11 +6,13 @@ whose contract has already ended.
 
 ## Options
 
--   --uri String [MANDATORY] Execute the update query to modify the matched documents
--   --update -u Boolean Execute the update query to modify the matched documents
--   --test -t Boolean Execute the script against the 'test' database instead of 'bativigie'
--   --copy -c Boolean If --test is set, copy the 'workers' collection from 'bativigie' to 'test' before
--   --help -h Boolean Show this usage manual
+| Flag     | Alias | Type               | Optional | Description                                                                       |
+| -------- | ----- | ------------------ | -------- | --------------------------------------------------------------------------------- |
+| --uri    | -     | String / Mongo URI | -        | Set the connection URI of the database                                            |
+| --update | -u    | Boolean            | yes      | Execute the update query to modify the matched documents                          |
+| --test   | -t    | Boolean            | yes      | Execute the script against the 'test' database instead of 'bativigie'             |
+| --copy   | -c    | Boolean            | yes      | If --test is set, copy the 'workers' collection from 'bativigie' to 'test' before |
+| --help   | -h    | Boolean            | yes      | Show this usage manual                                                            |
 
 ## Examples
 

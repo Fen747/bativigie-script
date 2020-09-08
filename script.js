@@ -8,7 +8,7 @@ const commandLineOptions = [
 		name: 'uri',
 		type: String,
 		mandatory: true,
-		description: `[MANDATORY] Execute the update query to modify the matched documents`,
+		description: `[MANDATORY] Set the connection URI of the database`,
 	},
 	{
 		name: 'update',
