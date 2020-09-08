@@ -14,6 +14,10 @@ whose contract has already ended.
 | --copy   | -c    | Boolean            | yes      | If --test is set, copy the 'workers' collection from 'bativigie' to 'test' before |
 | --help   | -h    | Boolean            | yes      | Show this usage manual                                                            |
 
+## Installing deps
+
+    npm install
+
 ## Examples
 
     // Count documents to update
