@@ -31,3 +31,7 @@ whose contract has already ended.
 
     // Update matching workers on production database
     node script.js --uri="mongodb+srv://username:passsword@clusterName.url.mongodb.net/bativigie" -u
+
+## Logs
+
+Logs can be found at `./logs`. Filename contains the timestamp used to detect documents to update
