@@ -184,7 +184,7 @@ const main = () => {
 					}
 				}
 
-				if (nbMatched) {
+				if (options.update === true && nbMatched) {
 					if (!fs.existsSync(logsFolder)) {
 						console.log('Creating logs folder...')
 						fs.mkdirSync(logsFolder)
